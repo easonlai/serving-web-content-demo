@@ -1,4 +1,6 @@
 # Java Spring Boot Web Content with logback (logback-spring) Logging Configuration Demo Repo
+This is demo repo to demostrate how to work with build-in & [logback (logback-spring)](https://docs.spring.io/spring-boot/docs/2.1.1.RELEASE/reference/html/boot-features-logging.html) logging in Java Spring Boot web. Logging will output to STROUT and log path (/logs/log.log). This repo also contain containerization materials for futher deployment in Kubernetes cluster (e.g Azure Kubernetes Service (AKS)). 
+
 Readme update 1.0
 
 ## With Java Spring Boot Build-in Logging
