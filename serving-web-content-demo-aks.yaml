@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: serving-web-content-demo
+  namespace: dev
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  labels:
+    run: serving-web-content-demo
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 8080
+    targetPort: 8080
+    protocol: TCP
+    name: http
+  selector:
+    run: serving-web-content-demo
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: serving-web-content-demo
+  namespace: dev
+spec:
+  selector:
+    matchLabels:
+      run: serving-web-content-demo
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: serving-web-content-demo
+    spec:
+      containers:
+      - name: serving-web-content-demo
+        image: dniacr01.azurecr.io/serving-web-content-demo
+        ports:
+        - containerPort: 8080

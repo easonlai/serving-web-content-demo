@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<property name="LOG_DIR" value="logs"/>
+
+<conversionRule conversionWord="ip" converterClass="app.minions.servingwebcontentdemo.IPLogConfig" />
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>
+        %d{dd-MM-yyyy HH:mm:ss.SSS}, %ip ,%thread, %-5level, %logger.%M, %msg%n
+      </pattern>
+    </encoder>
+  </appender>
+
+  <appender name="SAVE-TO-FILE" class="ch.qos.logback.core.FileAppender">
+    <file>${LOG_DIR}/log.log</file>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <Pattern>
+        %d{dd-MM-yyyy HH:mm:ss.SSS}, %ip ,%thread, %-5level, %logger.%M, %msg%n
+      </Pattern>
+    </encoder>
+  </appender>
+
+<root level="info">
+    <appender-ref ref="STDOUT"/>
+</root>
+<logger name="app.minions.servingwebcontentdemo" additivity="false" level="trace">
+    <appender-ref ref="STDOUT"/>
+    <appender-ref ref="SAVE-TO-FILE"/>
+</logger>
+<logger name="app.minions.servingwebcontentdemo" additivity="false" level="error">
+    <appender-ref ref="STDOUT"/>
+</logger>
+
+</configuration>
