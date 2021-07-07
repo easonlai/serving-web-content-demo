@@ -14,3 +14,29 @@
 13-06-2021 16:26:17.067, 10.230.192.4 ,http-nio-8080-exec-7, TRACE, app.minions.servingwebcontentdemo.GreetingController.greeting, 0:0:0:0:0:0:0:1, Greeting page accessed.
 13-06-2021 16:26:17.697, 10.230.192.4 ,http-nio-8080-exec-8, TRACE, app.minions.servingwebcontentdemo.GreetingController.greeting, 0:0:0:0:0:0:0:1, Greeting page accessed.
 13-06-2021 16:26:18.435, 10.230.192.4 ,http-nio-8080-exec-9, TRACE, app.minions.servingwebcontentdemo.GreetingController.greeting, 0:0:0:0:0:0:0:1, Greeting page accessed.
+25-06-2021 15:08:38.053, 10.230.192.4 ,main, INFO , app.minions.servingwebcontentdemo.ServingWebContentDemoApplication.logStarting, Starting ServingWebContentDemoApplication v0.0.1 using Java 1.8.0_291 on dnidev01 with PID 860 (C:\Users\easonlai\Documents\dev\container_dev\serving-web-content-demo\target\serving-web-content-demo-0.0.1.jar started by easonlai in C:\Users\easonlai\Documents\dev\container_dev\serving-web-content-demo)
+25-06-2021 15:08:38.064, 10.230.192.4 ,main, DEBUG, app.minions.servingwebcontentdemo.ServingWebContentDemoApplication.logStarting, Running with Spring Boot v2.4.7, Spring v5.3.8
+25-06-2021 15:08:38.065, 10.230.192.4 ,main, INFO , app.minions.servingwebcontentdemo.ServingWebContentDemoApplication.logStartupProfileInfo, No active profile set, falling back to default profiles: default
+25-06-2021 15:08:41.344, 10.230.192.4 ,main, INFO , app.minions.servingwebcontentdemo.ServingWebContentDemoApplication.logStarted, Started ServingWebContentDemoApplication in 4.444 seconds (JVM running for 5.951)
+25-06-2021 15:09:05.295, 10.230.192.4 ,http-nio-8080-exec-1, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:54:11.309, 10.230.192.4 ,main, INFO , app.minions.servingwebcontentdemo.ServingWebContentDemoApplication.logStarting, Starting ServingWebContentDemoApplication v0.0.1 using Java 1.8.0_291 on dnidev01 with PID 2280 (C:\Users\easonlai\Documents\dev\container_dev\serving-web-content-demo\target\serving-web-content-demo-0.0.1.jar started by easonlai in C:\Users\easonlai\Documents\dev\container_dev\serving-web-content-demo)
+27-06-2021 17:54:11.316, 10.230.192.4 ,main, DEBUG, app.minions.servingwebcontentdemo.ServingWebContentDemoApplication.logStarting, Running with Spring Boot v2.4.7, Spring v5.3.8
+27-06-2021 17:54:11.318, 10.230.192.4 ,main, INFO , app.minions.servingwebcontentdemo.ServingWebContentDemoApplication.logStartupProfileInfo, No active profile set, falling back to default profiles: default
+27-06-2021 17:54:14.825, 10.230.192.4 ,main, INFO , app.minions.servingwebcontentdemo.ServingWebContentDemoApplication.logStarted, Started ServingWebContentDemoApplication in 4.488 seconds (JVM running for 5.157)
+27-06-2021 17:54:23.571, 10.230.192.4 ,http-nio-8080-exec-1, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:54:46.276, 10.230.192.4 ,http-nio-8080-exec-3, TRACE, app.minions.servingwebcontentdemo.GreetingController.greeting, 0:0:0:0:0:0:0:1, Greeting page accessed.
+27-06-2021 17:54:52.481, 10.230.192.4 ,http-nio-8080-exec-2, ERROR, app.minions.servingwebcontentdemo.TestErrorController.testerror, 0:0:0:0:0:0:0:1, Test Error page accessed.
+27-06-2021 17:55:10.875, 10.230.192.4 ,http-nio-8080-exec-5, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:11.253, 10.230.192.4 ,http-nio-8080-exec-6, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:11.478, 10.230.192.4 ,http-nio-8080-exec-7, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:11.699, 10.230.192.4 ,http-nio-8080-exec-8, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:11.922, 10.230.192.4 ,http-nio-8080-exec-9, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:12.129, 10.230.192.4 ,http-nio-8080-exec-10, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:12.346, 10.230.192.4 ,http-nio-8080-exec-1, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:12.570, 10.230.192.4 ,http-nio-8080-exec-4, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:12.802, 10.230.192.4 ,http-nio-8080-exec-3, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:13.162, 10.230.192.4 ,http-nio-8080-exec-2, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:13.426, 10.230.192.4 ,http-nio-8080-exec-5, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:13.641, 10.230.192.4 ,http-nio-8080-exec-6, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:13.835, 10.230.192.4 ,http-nio-8080-exec-7, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
+27-06-2021 17:55:14.050, 10.230.192.4 ,http-nio-8080-exec-8, TRACE, app.minions.servingwebcontentdemo.HomeController.home, 0:0:0:0:0:0:0:1, Home page accessed.
