@@ -17,7 +17,7 @@ public class GreetingController {
         String remoteAddr = req.getRemoteAddr();
         //System.out.println(remoteAddr);
         logger.trace(remoteAddr+", "+"Greeting page accessed.");
-        return "Hello! Welcome to Greeting page!";
+        return "Hello! Welcome to grogu facts page!";
     }
 
 }

@@ -17,7 +17,7 @@ public class HomeController {
         String remoteAddr = req.getRemoteAddr();
         //System.out.println(remoteAddr);
         logger.trace(remoteAddr+", "+"Home page accessed.");
-        return "Hello! Welcome to Home page!";
+        return "Hello! Welcome to Grogu facts Home page!";
     }
 
 }
